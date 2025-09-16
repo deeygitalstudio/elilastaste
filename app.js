@@ -5,7 +5,8 @@
                   category: "Rice",
                    price: 4200, 
                    image: "https://kikifoodies.com/wp-content/uploads/2023/12/ET5B9195.jpeg", 
-                   description: "Classic tomato sauce, mozzarella, and basil"
+                   description: "sweet and yummy",
+
                  },
 
             { 
@@ -14,7 +15,7 @@
                 category: "Rice", 
                 price: 4000, 
                 image: "https://t4.ftcdn.net/jpg/12/92/81/49/360_F_1292814964_cINtJDBFzTcfhlSAKtprK3erb0ltmRSM.jpg",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                 description: "sweet and spicy Classy tomato sauce",
              },
             { 
                 id: 3, 
@@ -22,7 +23,7 @@
                 category: "Rice", 
                 price: 15000, 
                 image: "https://www.oluolufoods.com/cdn/shop/articles/025ddf8195079ed983f08cd74e6399e8feeb4d28.png?v=1751236672",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                description: "sweet and spicy Classy tomato sauce",
              },
             { 
                 id: 4, 
@@ -30,7 +31,7 @@
                 category: "Rice", 
                 price: 22000, 
                 image: "https://www.oluolufoods.com/cdn/shop/articles/025ddf8195079ed983f08cd74e6399e8feeb4d28.png?v=1751236672",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+               description: "sweet and spicy Classy tomato sauce",
              },
             { 
                 id: 5, 
@@ -38,7 +39,7 @@
                 category: "Rice", 
                 price: 16000, 
                 image: "https://sisijemimah.com/wp-content/uploads/2015/07/IMG_0011_20200824075644597-scaled.jpg",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                 description: "sweet and yummy",
              },
             { 
                 id: 6, 
@@ -46,7 +47,7 @@
                 category: "Rice", 
                 price: 23000, 
                 image: "https://sisijemimah.com/wp-content/uploads/2015/07/IMG_0011_20200824075644597-scaled.jpg",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                  description: "sweet and yummy",
              },
             { 
                 id: 7, 
@@ -54,7 +55,7 @@
                 category: "Rice", 
                 price: 17000, 
                 image: "https://i.ytimg.com/vi/phKnxFqtyrs/maxresdefault.jpg",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                description: "Sweet"
              },
             { 
                 id: 8, 
@@ -62,7 +63,7 @@
                 category: "Rice", 
                 price: 25000, 
                 image: "https://i.ytimg.com/vi/phKnxFqtyrs/maxresdefault.jpg",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                 description: "Sweet"
              },
             { 
                 id: 9, 
@@ -70,7 +71,7 @@
                 category: "Rice", 
                 price: 16000, 
                 image: "https://gtfoodsplus.com/wp-content/uploads/2024/08/hq720.jpg",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                 description: "nutty fragrance and spicy"
              },
             { 
                 id: 10, 
@@ -78,7 +79,7 @@
                 category: "Rice", 
                 price: 22000, 
                 image: "https://gtfoodsplus.com/wp-content/uploads/2024/08/hq720.jpg",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                 description: "nutty fragrance and spicy"
              },
             { 
                 id: 11, 
@@ -86,7 +87,7 @@
                 category: "Rice", 
                 price: 18000, 
                 image: "https://i.ytimg.com/vi/efk4Ss_UsoA/maxresdefault.jpg",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                 description: "Sweet"
              },
             { 
                 id: 12, 
@@ -94,7 +95,7 @@
                 category: "Rice", 
                 price: 25000, 
                 image: "https://i.ytimg.com/vi/efk4Ss_UsoA/maxresdefault.jpg",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                 description: "Sweet"
              },
             { 
                 id: 13, 
