@@ -5,7 +5,7 @@
                   category: "Rice",
                    price: 4200, 
                    image: "https://kikifoodies.com/wp-content/uploads/2023/12/ET5B9195.jpeg", 
-                   description: "sweet and yummy",
+                   description: "sweet and yummy.garnished with fresh veggies",
 
                  },
 
@@ -15,7 +15,7 @@
                 category: "Rice", 
                 price: 4000, 
                 image: "https://t4.ftcdn.net/jpg/12/92/81/49/360_F_1292814964_cINtJDBFzTcfhlSAKtprK3erb0ltmRSM.jpg",
-                 description: "sweet and spicy Classy tomato sauce",
+                 description: "Classy tomato sauce, smokey sweet and spicy",
              },
             { 
                 id: 3, 
@@ -23,7 +23,7 @@
                 category: "Rice", 
                 price: 15000, 
                 image: "https://www.oluolufoods.com/cdn/shop/articles/025ddf8195079ed983f08cd74e6399e8feeb4d28.png?v=1751236672",
-                description: "sweet and spicy Classy tomato sauce",
+                description: "Classy tomato sauce, smokey sweet and spicy",
              },
             { 
                 id: 4, 
@@ -31,7 +31,7 @@
                 category: "Rice", 
                 price: 22000, 
                 image: "https://www.oluolufoods.com/cdn/shop/articles/025ddf8195079ed983f08cd74e6399e8feeb4d28.png?v=1751236672",
-               description: "sweet and spicy Classy tomato sauce",
+               description: "Classy tomato sauce, smokey sweet and spicy",
              },
             { 
                 id: 5, 
@@ -39,7 +39,7 @@
                 category: "Rice", 
                 price: 16000, 
                 image: "https://sisijemimah.com/wp-content/uploads/2015/07/IMG_0011_20200824075644597-scaled.jpg",
-                 description: "sweet and yummy",
+                description: "sweet and yummy.garnished with fresh veggies",
              },
             { 
                 id: 6, 
@@ -47,7 +47,7 @@
                 category: "Rice", 
                 price: 23000, 
                 image: "https://sisijemimah.com/wp-content/uploads/2015/07/IMG_0011_20200824075644597-scaled.jpg",
-                  description: "sweet and yummy",
+                description: "sweet and yummy.garnished with fresh veggies",
              },
             { 
                 id: 7, 
@@ -55,7 +55,7 @@
                 category: "Rice", 
                 price: 17000, 
                 image: "https://i.ytimg.com/vi/phKnxFqtyrs/maxresdefault.jpg",
-                description: "Sweet"
+                description: "sweet and tender"
              },
             { 
                 id: 8, 
@@ -63,7 +63,7 @@
                 category: "Rice", 
                 price: 25000, 
                 image: "https://i.ytimg.com/vi/phKnxFqtyrs/maxresdefault.jpg",
-                 description: "Sweet"
+                 description: "sweet and tender"
              },
             { 
                 id: 9, 
@@ -87,7 +87,7 @@
                 category: "Rice", 
                 price: 18000, 
                 image: "https://i.ytimg.com/vi/efk4Ss_UsoA/maxresdefault.jpg",
-                 description: "Sweet"
+                 description: "sweet with grilled asun"
              },
             { 
                 id: 12, 
@@ -95,7 +95,7 @@
                 category: "Rice", 
                 price: 25000, 
                 image: "https://i.ytimg.com/vi/efk4Ss_UsoA/maxresdefault.jpg",
-                 description: "Sweet"
+                 description: "sweet with grilled asun",
              },
             { 
                 id: 13, 
@@ -103,7 +103,7 @@
                 category: "Rice", 
                 price: 15000, 
                 image: "https://i.ytimg.com/vi/bcolBftZQYA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDgEYvCQphdlrt_T7tN8Ug9K3J3Ug",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                 description: "Sweet and Aromatic"
              },
             { 
                 id: 14, 
@@ -111,7 +111,7 @@
                 category: "Rice", 
                 price: 22000, 
                 image: "https://i.ytimg.com/vi/bcolBftZQYA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDgEYvCQphdlrt_T7tN8Ug9K3J3Ug",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                 description: "Sweet and Aromatic"
              },
             { 
                 id: 15, 
@@ -119,7 +119,7 @@
                 category: "Pasta", 
                 price: 18000, 
                 image: "https://i.ytimg.com/vi/-HciGwIEtCM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCF1MiK9dd9IwLYPpiY4zTJ4burkw",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                 description: "Classy tomato sauce , sweet and spicy"
              },
             { 
                 id: 16, 
@@ -127,7 +127,7 @@
                 category: "Pasta", 
                 price: 25000, 
                 image: "https://i.ytimg.com/vi/-HciGwIEtCM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCF1MiK9dd9IwLYPpiY4zTJ4burkw",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                 description: "Classy tomato sauce , sweet and spicy"
              },
             { 
                 id: 17, 
@@ -135,7 +135,7 @@
                 category: "Pasta", 
                 price: 15000, 
                 image: "https://i.ytimg.com/vi/CiqYHU4P268/maxresdefault.jpg",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                 description: "sun pasta.spicy,well seasoned grilled asun"
              },
             { 
                 id: 18, 
@@ -143,7 +143,7 @@
                 category: "Pasta", 
                 price: 22000, 
                 image: "https://i.ytimg.com/vi/CiqYHU4P268/maxresdefault.jpg",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                 description: "sun pasta.spicy,well seasoned grilled asun"
              },
             { 
                 id: 19, 
@@ -151,7 +151,7 @@
                 category: "Pasta", 
                 price: 18000, 
                 image: "https://i.ytimg.com/vi/fnUAx_3SB94/maxresdefault.jpg",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                 description: "Spicy,garnished with fresh veggies"
              },
             { 
                 id: 20, 
@@ -159,7 +159,7 @@
                 category: "Pasta", 
                 price: 25000, 
                 image: "https://i.ytimg.com/vi/fnUAx_3SB94/maxresdefault.jpg",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                 description: "Spicy,garnished with fresh veggies"
              },
             { 
                 id: 21, 
@@ -167,7 +167,7 @@
                 category: "Pasta", 
                 price: 18000, 
                 image: "https://i0.wp.com/www.1qfoodplatter.com/wp-content/uploads/2016/08/Jollof-Spaghetti-2.jpg?ssl=1",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                 description: "Classy tomato sauce...Well seasoned to be sweet, spicy"
              },
             { 
                 id: 22, 
@@ -175,7 +175,7 @@
                 category: "Pasta", 
                 price: 25000, 
                 image: "https://i0.wp.com/www.1qfoodplatter.com/wp-content/uploads/2016/08/Jollof-Spaghetti-2.jpg?ssl=1",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                description: "Classy tomato sauce...Well seasoned to be sweet, spicy"
              },
         
             { 
@@ -184,7 +184,7 @@
                 category: "Pasta", 
                 price: 20000, 
                 image: "https://images.aws.nestle.recipes/resized/0a0717810b73a1672a029c29788e557b_creamy_alfredo_pasta_long_left_1200_628.jpg",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+               description: "Creamy and nutritious"
              },
             { 
                 id: 24, 
@@ -192,7 +192,7 @@
                 category: "Pasta", 
                 price: 30000, 
                 image: "https://images.aws.nestle.recipes/resized/0a0717810b73a1672a029c29788e557b_creamy_alfredo_pasta_long_left_1200_628.jpg",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                 description: "Creamy and nutritious"
              },
             { 
                 id: 25, 
@@ -200,7 +200,7 @@
                 category: "Grills", 
                 price: 10000, 
                 image: "https://i.ytimg.com/vi/IqIfIRsdQmY/maxresdefault.jpg",
-                 description: "Crispy and sweet"
+                 description: "Sweet .Creamy, juicy and succulent."
              },
         
             { 
@@ -209,7 +209,7 @@
                 category: "Grills", 
                 price: 12000, 
                 image: "https://i.ytimg.com/vi/IFl7vH8PxxY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLASBLo8Owz4ErMuDBIHv_UOpxCfww",
-                 description: "Crispy and sweet"
+                  description: "Sweet .Creamy, juicy and succulent."
              },
             { 
                 id: 27, 
@@ -217,7 +217,7 @@
                 category: "Grills", 
                 price: 15000, 
                 image: "https://pbs.twimg.com/media/Et7v-lxWQAEmwOj.jpg:large",
-                description: "Crispy and sweet"
+                 description: "Sweet .Creamy, juicy and succulent."
              },
             { 
                 id: 28, 
@@ -225,7 +225,7 @@
                 category: "Grills", 
                 price: 25000, 
                 image: "https://pbs.twimg.com/media/Et7v-lxWQAEmwOj.jpg:large",
-                 description: "Crispy and sweet"
+                  description: "Sweet .Creamy, juicy and succulent."
              },
         
             { 
@@ -234,7 +234,7 @@
                 category: "Grills", 
                 price: 12000, 
                 image: "https://media.istockphoto.com/id/1164396068/photo/fried-chicken-leg-with-french-fries.jpg?s=612x612&w=0&k=20&c=NV9wyTVV4Ef2HdRAFqg9Hg0SwqXgJF-nrCjfHbSEW18=",
-                 description: "Crispy and sweet"
+                description: "Sweet .Creamy, juicy and succulent."
              },
             { 
                 id: 30, 
@@ -242,7 +242,7 @@
                 category: "Grills", 
                 price: 20000, 
                 image: "https://media.istockphoto.com/id/1164396068/photo/fried-chicken-leg-with-french-fries.jpg?s=612x612&w=0&k=20&c=NV9wyTVV4Ef2HdRAFqg9Hg0SwqXgJF-nrCjfHbSEW18=",
-                 description: "Crispy and sweet"
+                description: "Sweet .Creamy, juicy and succulent."
              },
             { 
                 id: 31, 
@@ -250,7 +250,7 @@
                 category: "Soups", 
                 price: 18000, 
                 image: "https://i.ytimg.com/vi/sPZZgr6Ghqo/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCgYaU5sFcRw1aOIg-6wCE6Lk6r9g",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                 description: "Fresh vegetables Sweet and savory"
              },
             { 
                 id: 32, 
@@ -258,7 +258,7 @@
                 category: "Soups", 
                 price: 25000, 
                 image: "https://i.ytimg.com/vi/sPZZgr6Ghqo/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCgYaU5sFcRw1aOIg-6wCE6Lk6r9g",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                 description: "Fresh vegetables Sweet and savory"
              },
             { 
                 id: 31, 
@@ -266,7 +266,7 @@
                 category: "Soups", 
                 price: 18000, 
                 image: "https://www.allnigerianrecipes.com/wp-content/uploads/2022/11/festive-nigerian-egusi-soup.jpg",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                  description: "Tossed melon seeds Proteins Well seasoned"
              },
             { 
                 id: 32, 
@@ -274,7 +274,7 @@
                 category: "Soups", 
                 price: 25000, 
                 image: "https://www.allnigerianrecipes.com/wp-content/uploads/2022/11/festive-nigerian-egusi-soup.jpg",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                 description: "Tossed melon seeds Proteins Well seasoned"
              },
             { 
                 id: 33, 
@@ -282,7 +282,7 @@
                 category: "Soups", 
                 price: 20000, 
                 image: "https://i.ytimg.com/vi/u3FzRezSgBs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBqAlGq04SQ_O_iJOGsT2I9Ux3wMQ",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                 description: "Made with fresh vegetables. sweet and aromatic "
              },
             { 
                 id: 34, 
@@ -290,7 +290,7 @@
                 category: "Soups", 
                 price: 27000, 
                 image: "https://i.ytimg.com/vi/u3FzRezSgBs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBqAlGq04SQ_O_iJOGsT2I9Ux3wMQ",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                description: "Made with fresh vegetables. sweet and aromatic "
              },
         
             { 
@@ -299,7 +299,7 @@
                 category: "Soups", 
                 price: 15000, 
                 image: "https://i.ytimg.com/vi/BgpeXjEjaR0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAfxob4hRk3z5ppubG_jzNQ_gQWlw",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                 description: "Sweet"
              },
             { 
                 id: 36, 
@@ -307,7 +307,7 @@
                 category: "Soups", 
                 price: 25000, 
                 image: "https://i.ytimg.com/vi/BgpeXjEjaR0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAfxob4hRk3z5ppubG_jzNQ_gQWlw",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                 description: "Sweet"
              },
         
             { 
@@ -316,7 +316,7 @@
                 category: "Soups", 
                 price: 15000, 
                 image: "https://i.ytimg.com/vi/-BDWuHLUAQU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAttwl7mIVxHwxB0Q-fWyO4ThxMNA",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                 description: "Classy tomato sauce, Sweet and spicy."
              },
             { 
                 id: 37, 
@@ -324,7 +324,7 @@
                 category: "Soups", 
                 price: 25000, 
                 image: "https://i.ytimg.com/vi/-BDWuHLUAQU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAttwl7mIVxHwxB0Q-fWyO4ThxMNA",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                  description: "Classy tomato sauce, Sweet and spicy."
              },
             { 
                 id: 38, 
@@ -332,7 +332,7 @@
                 category: "Soups", 
                 price: 18000, 
                 image: "https://i.ytimg.com/vi/_GvgEz4G4LM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAUP7rjwPqPPH06n8vtVA6SzhabMA",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                  description: "Made with fresh unripe scotch bonnet peppers, Bells peppers.Sweet and savor"
              },
             { 
                 id: 39, 
@@ -340,7 +340,7 @@
                 category: "Soups", 
                 price: 20000, 
                 image: "https://i.ytimg.com/vi/_GvgEz4G4LM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAUP7rjwPqPPH06n8vtVA6SzhabMA",
-                 description: "Pepperoni, mozzarella, and tomato sauce"
+                 description: "Made with fresh unripe scotch bonnet peppers, Bells peppers.Sweet and savor"
              },
         
         ];
