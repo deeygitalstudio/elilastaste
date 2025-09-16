@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elila's Taste</title>
+ <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#004610ff',
+                        secondary: '#2D3748'
+                    },
+                    fontFamily: {
+        kaushan: ['"Kaushan Script"', 'cursive'],
+      },
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50">
+<!-- Navbar -->
+<nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16">
+      
+      <!-- Logo -->
+      <div class="flex items-center">
+        <a href="./index.html" class="pointer">
+          <h1 class="text-2xl font-bold font-kaushan text-primary">
+            Elila’s <span class="text-orange-600">Taste</span>
+          </h1>
+        </a>
+      </div>
+
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex items-center space-x-8">
+        <a href="#home" class="text-gray-700 font-medium hover:text-primary">Home</a>
+        <a href="#menu" class="text-gray-700 font-medium hover:text-primary">Menu</a>
+        <a href="#about" class="text-gray-700 font-medium hover:text-primary">About</a>
+        <a href="#contact" class="text-gray-700 font-medium hover:text-primary">Contact</a>
+      </div>
+
+      <!-- Mobile Hamburger -->
+      <div class="md:hidden">
+        <button id="mobileMenuBtn" class="text-gray-700 focus:outline-none">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Black Overlay -->
+<div id="overlay" class="fixed inset-0 bg-black bg-opacity-50 hidden z-40"></div>
+
+<!-- Mobile Sidebar -->
+<div id="mobileMenu"
+  class="fixed top-0 left-0 h-full w-64 bg-white shadow-lg transform -translate-x-full transition-transform duration-500 ease-in-out z-50">
+  <div class="p-6 space-y-4">
+    <button id="closeMenu" class="text-gray-700 text-2xl mb-4">✖</button>
+    <a href="#home" class="block text-gray-700 font-medium hover:text-primary">Home</a>
+    <a href="#menu" class="block text-gray-700 font-medium hover:text-primary">Menu</a>
+    <a href="#about" class="block text-gray-700 font-medium hover:text-primary">About</a>
+    <a href="#contact" class="block text-gray-700 font-medium hover:text-primary">Contact</a>
+  </div>
+</div>
+
+
+
+<!-- Hero Section -->
+<section id="home" class="relative h-[600px] pt-16 bg-[url('./image/top-view-sliced-vegetable-meal-with-different-ingredients-seasonings-dark-blue-background.jpg')] bg-center bg-cover text-white">
+  <!-- Dark overlay -->
+  <div class="absolute inset-0 bg-black/50"></div>
+
+  <!-- Hero Content -->
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 z-10">
+    <div class="text-center">
+      <h1 class="text-5xl md:text-6xl font-bold mb-6">
+        Simplify Your Day with Elila's Taste!
+      </h1>
+      <p class="text-xl mb-8 max-w-2xl mx-auto">
+        Order your favorite meals from the best kitchen in town. Fresh, fast, and delivered right to your door!
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+       
+        <a href="#menu"><button
+          class="bg-white text-primary px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+        >
+          Order Now
+        </button></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Features -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="text-4xl mb-4">⚡</div>
+                    <h3 class="text-xl font-semibold mb-2">Fast Delivery</h3>
+                    <p class="text-gray-600">Get your food delivered in 30 minutes or less</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl mb-4">🍽️</div>
+                    <h3 class="text-xl font-semibold mb-2">Quality Food</h3>
+                    <p class="text-gray-600">Fresh ingredients from the best restaurants</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl mb-4">📱</div>
+                    <h3 class="text-xl font-semibold mb-2">Easy Ordering</h3>
+                    <p class="text-gray-600">Simple and intuitive ordering process</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-12">Our Menu</h2>
+            
+            <!-- Category Filter -->
+            <div class="flex flex-wrap justify-center gap-3 mb-8">
+                <button class="category-btn active bg-primary text-white px-6 py-2 rounded-full" data-category="all">All</button>
+                <button class="category-btn bg-white text-gray-700 px-6 py-2 rounded-full hover:bg-primary hover:text-white transition-colors" data-category="Rice">Rice</button>
+                <button class="category-btn bg-white text-gray-700 px-6 py-2 rounded-full hover:bg-primary hover:text-white transition-colors" data-category="Pasta">Pasta</button>
+                <button class="category-btn bg-white text-gray-700 px-6 py-2 rounded-full hover:bg-primary hover:text-white transition-colors" data-category="Snacks">Snacks</button>
+                <button class="category-btn bg-white text-gray-700 px-6 py-2 rounded-full hover:bg-primary hover:text-white transition-colors" data-category="Grills">Grills</button>
+                <button class="category-btn bg-white text-gray-700 px-6 py-2 rounded-full hover:bg-primary hover:text-white transition-colors" data-category="Soups">Soups</button>
+            </div>
+
+            <!-- Menu Items -->
+            <div id="menuGrid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Menu items will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Modal -->
+    <div id="orderModal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden">
+        <div class="flex items-center justify-center min-h-screen p-4">
+            <div class="bg-white rounded-lg max-w-md w-full max-h-96 overflow-y-auto">
+                <div class="p-6">
+                    <div class="flex justify-between items-center mb-4">
+                        <h3 class="text-xl font-semibold">Your Cart</h3>
+                        <button id="closeCartBtn" class="text-gray-500 hover:text-gray-700">✕</button>
+                    </div>
+                    <div id="cartItems" class="space-y-4 mb-6">
+                        <!-- Cart items will be populated here -->
+                    </div>
+                    <div class="border-t pt-4">
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="font-semibold">Total: $<span id="cartTotal">0.00</span></span>
+                        </div>
+                        <button id="checkoutBtn" class="w-full bg-primary text-white py-3 rounded-lg hover:bg-orange-600 transition-colors">Proceed to Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl  font-bold mb-6">About <span class="font-kaushan">Elila’s</span> <span class="text-orange-600">Taste</span></h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">We're passionate about bringing you the best food delivery experience with quality, speed, and exceptional service.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">What We Do</h3>
+                    <p class="text-gray-600 mb-4">
+             At Elila’s Taste, we specialize in providing fresh, delicious, and nutritious lunch packs and meal cooking services. Whether you need a custom-packed lunch, gourmet meal prep, or corporate orders, we've got you covered.
+             .</p>
+                    <p class="text-gray-600 mb-4">We offer a variety of meal options tailored to your taste and dietary needs, gluten-free, and more. Every dish is crafted with the finest ingredients, ensuring both flavor and quality .
+
+                     Order today and experience the taste of excellence with Elila’s Taste..</p>
+                </div>
+                <div class="text-center">
+                    <img src="./image/WhatsApp Image 2025-08-27 at 09.07.28_b4e138bf.jpg" class="w-100 h-[400px]" alt="">
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 mb-16">
+                <div class="text-center p-6 bg-gray-50 rounded-lg">
+                    <div class="text-4xl mb-4">👨‍🍳</div>
+                    <h4 class="text-xl font-semibold mb-2">Expert Chefs</h4>
+                    <p class="text-gray-600">We work with experienced chefs who are passionate about creating amazing dishes</p>
+                </div>
+                <div class="text-center p-6 bg-gray-50 rounded-lg">
+                    <div class="text-4xl mb-4">🌱</div>
+                    <h4 class="text-xl font-semibold mb-2">Fresh Ingredients</h4>
+                    <p class="text-gray-600">Only the freshest, highest-quality ingredients make it into our  kitchens</p>
+                </div>
+                <div class="text-center p-6 bg-gray-50 rounded-lg">
+                    <div class="text-4xl mb-4">❤️</div>
+                    <h4 class="text-xl font-semibold mb-2">Made with Love</h4>
+                    <p class="text-gray-600">Every meal is prepared with care and attention to detail</p>
+                </div>
+            </div>
+
+            <div class="bg-primary text-white rounded-lg p-8 text-center">
+                <h3 class="text-2xl font-semibold mb-4">Our Mission</h3>
+                <p class="text-lg max-w-2xl mx-auto">Life can get busy, and finding time to cook healthy, delicious meals often takes a backseat. Whether you're a bachelor juggling work or a professional on-the-go, we’ve got your meal prep needs covered!
+             .</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold mb-6">Contact Us</h2>
+                <p class="text-xl text-gray-600">We'd love to hear from you! Get in touch with any questions or feedback.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Contact Form -->
+                <div class="bg-white rounded-lg shadow-md p-8">
+                    <h3 class="text-2xl font-semibold mb-6">Send us a Message</h3>
+                    <form id="contactForm" class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Full Name</label>
+                            <input type="text" id="name" name="name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
+                            <input type="email" id="email" name="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="subject" class="block text-sm font-medium text-gray-700 mb-2">Subject</label>
+                            <select id="subject" name="subject" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
+                                <option value="">Select a subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="order">Order Issue</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="partnership">Restaurant Partnership</option>
+                                <option value="Special Request">Special Request</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+                            <textarea id="note" name="message" rows="5" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Tell us how we can help you..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-primary text-white py-3 rounded-lg hover:bg-orange-600 transition-colors font-semibold">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="space-y-8">
+                    <div class="bg-white rounded-lg shadow-md p-8">
+                        <h3 class="text-2xl font-semibold mb-6">Get in Touch</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-center">
+                                <div class="text-2xl mr-4">📍</div>
+                                <div>
+                                    <h4 class="font-semibold">Address</h4>
+                                    <p class="text-gray-600">Location: Wealthy Place Estate, Iyana Osun, St Ann Hospital Road, Lusada, Ogun State.
+                                   </p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="text-2xl mr-4">📞</div>
+                                <div>
+                                    <h4 class="font-semibold">Phone</h4>
+                                    <p class="text-gray-600">+2348133515558 | +2349043268560</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="text-2xl mr-4">📧</div>
+                                <div>
+                                    <h4 class="font-semibold">Email</h4>
+                                    <p class="text-gray-600">elilastaste@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="text-2xl mr-4">🕒</div>
+                                <div>
+                                    <h4 class="font-semibold">Hours</h4>
+                                    <p class="text-gray-600">Mon-Sun: 9:00 AM - 11:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-md p-8">
+                        <h3 class="text-xl font-semibold mb-4">Follow Us</h3>
+                        <div class="flex space-x-4">
+                            <a href="#" class="bg-gray-900 text-white p-3 rounded-lg hover:bg-black-700 transition-colors">TikTok</a>
+                            <a href="#" class="bg-pink-600 text-white p-3 rounded-lg hover:bg-pink-700 transition-colors">Instagram</a>
+                        </div>
+                    </div>
+
+                    <div class="bg-primary text-white rounded-lg p-8">
+                        <h3 class="text-xl font-semibold mb-4">Need Immediate Help?</h3>
+                        <p class="mb-4">For urgent order issues or immediate assistance, call our 24/7 customer support line or send a whatsApp Message</p>
+                        <a href="https://wa.me/2348133515558" target="_blank" class="text-2xl font-bold hover:underline"> +2348133515558</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-secondary text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h1 class="text-2xl font-bold font-kaushan  text-white">Elila’s <span class="text-orange-600">Taste</span></h1>
+                    <p class="text-gray-300">Serving happiness, one meal at a time.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="#home" class="hover:text-white">Home</a></li>
+                        <li><a href="#menu" class="hover:text-white">Menu</a></li>
+                        <li><a href="#about" class="hover:text-white">About</a></li>
+                        <li><a href="#contact" class="hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Contact Info</h4>
+                    <ul class="space-y-2 text-gray-300">
+                        <a href="tel:+2348012345678"><li>📞+2348133515558</li></a>
+                        <li>📧 elilastaste@gmail.com.com</li>
+                        <li>📍Wealthy Place Estate, Iyana Osun, St Ann Hospital Road, Lusada, Ogun State.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-300 hover:text-white">Tiktok</a>
+                        <a href="#" class="text-gray-300 hover:text-white">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-600 mt-8 pt-8 text-center text-gray-300">
+               <p>&copy; <script>document.write(new Date().getFullYear())</script> Elila’s Taste. All rights reserved.</p>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+
+
+</body>
+</html>
